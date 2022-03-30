@@ -1,2 +1,2 @@
 #!/bin/bash
-lseek offset 0 = SCHOOL
+file -C -m school.mgc*
