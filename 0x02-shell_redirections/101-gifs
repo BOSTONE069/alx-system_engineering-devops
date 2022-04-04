@@ -1,0 +1,2 @@
+#!/bin/bash
+find ~/list -type *.gif | sort -n 
