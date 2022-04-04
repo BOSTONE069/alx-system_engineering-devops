@@ -1,2 +1,2 @@
 #!/bin/bash
-head -c 1
+cut -c 1
