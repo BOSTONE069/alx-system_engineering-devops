@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~/lists -empty  
+find ./ -type f -empty  
