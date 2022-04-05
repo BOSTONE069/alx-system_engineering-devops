@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($WATER+$STIR)) > bestchol
+echo "%x\n" $(($WATER+$STIR))
