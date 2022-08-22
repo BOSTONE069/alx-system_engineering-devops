@@ -1,6 +1,5 @@
 /*
  * File: 102-zombie.c
- * Auth: Brennan D Baraban
  */
 
 #include <stdio.h>
