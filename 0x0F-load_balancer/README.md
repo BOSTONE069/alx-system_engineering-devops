@@ -8,7 +8,7 @@ This is the configuration of the load balancer with two servers
 ## Tasks :page_with_curl:
 
 * **0. Double the number of webservers**
-  * [0-custom_http_response_header](0-custom_http_response-header): Bash
+  * [0-custom_http_response_header](0-custom_http_response_header): Bash
   script that installs and configures Nginx on a server with a custom HTTP
   response header.
     * The name of the HTTP header is `X-Served-By`.
