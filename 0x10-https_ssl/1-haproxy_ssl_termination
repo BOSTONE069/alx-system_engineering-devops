@@ -33,13 +33,10 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend My_Load_Balancer
+listen www
         bind *:80
-        mode http
-        default_backend My_Web_Servers
-
-backend My_Web_Servers
-        mode http
+        bind *:443 ssl crt /etc/letsencrypt/live/www.bostoneochieng.tech/fullchain.pem
+        http-request redirect scheme https unless {ssl_fc}
         balance roundrobin
         server 37419-web-01 3.236.115.48:80
         server 37419-web-02 107.22.146.197:80
