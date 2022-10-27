@@ -1,6 +1,6 @@
 Web Debbugging 2
 
-<p>
+<p align="center">
  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/271/B4eeypV.jpg">
 </p>
 
@@ -13,7 +13,7 @@ Requirements:
 Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
 Write a Bash script that configures a server to the above requirements
 
-* **Make it sweet and short**
+* **2. Make it sweet and short**
 
 [1-debugging_made_short](1-debugging_made_short)
 
