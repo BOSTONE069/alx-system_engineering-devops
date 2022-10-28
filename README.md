@@ -1,4 +1,4 @@
-# alx-system_engineering-devops
+# ALX SYSTEM ENGINEERING AND DEVOPS
 
 <p align="center">
     <img src="https://www.softwebsolutions.com/wp-content/uploads/2021/04/Devops-for-microservices.png">
