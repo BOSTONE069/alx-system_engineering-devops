@@ -1,6 +1,6 @@
 ## Web Debugging 3
 
-<p>
+<p align="center">
     <img src="web3.png">
 </p>
 
