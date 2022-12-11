@@ -18,7 +18,7 @@ server {
         }
 
         # Header:
-        add_header X-Served-By "1201-web-01";
+        add_header X-Served-By "37419-web-01";
 
         # rewrite:
         rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
